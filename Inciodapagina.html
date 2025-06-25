@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>Namore o Caik</title>
+        <style>
+
+    body{
+        background-color:rgb(6, 33, 69);
+    }
+
+    .container{
+        background-color: rgb(6, 33, 62);
+        border-radius: 12px;
+        margin: 40px auto;
+        max-width: 800px;
+        max-height: 3400px;
+        padding: 30px;
+        border: 1px solid white;
+    }
+
+    @keyframes pulsar {
+     0%, 100% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(1.1);
+    }
+    }
+    img {
+    animation: pulsar 2s ease-in-out infinite;
+    display: block;
+    border: 0;
+    padding: 0;
+    margin: 0 auto;
+    }
+    
+    h3 {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.4);
+    margin: 20px 0;
+    }
+
+   button {
+  background-color: #4da8ff; /* azul claro */
+  color: white;
+  margin: 0 auto;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+button:hover {
+  background-color: #d2d8dc; /* azul médio ao passar o mouse */
+  transform: scale(1.05);
+  color: white;
+}
+
+button:active {
+  transform: scale(0.98);}
+  /*Para retirar o underline*/
+a {
+  text-decoration: none;}
+
+
+        </style>
+    </Head>
+    <body>
+        <div class="container">
+        <section>
+            
+        </section>
+        <section>
+        <img src="data:image/jpeg;base64,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" alt="">
+    </section>
+    <section>
+        <h3>Namorar o Caik é uma mistura de loucura boa com carinho verdadeiro.
+    Ele é aquele tipo que zoa, provoca, mas no fundo cuida de um jeito único. Tem suas manias, seus gostos diferentes, e um coração enorme escondido atrás do deboche.
+    Com ele, até o tédio vira diversão. E mesmo nos momentos difíceis, é fácil lembrar por que vale a pena: ele tá ali, do jeito dele, mas sempre presente.
+    É desafiador às vezes, mas também é leve, engraçado e cheio de amor.
+    No fim das contas, namorar o Caik é ter certeza de que a vida fica muito melhor com ele por perto. </h3>
+    </section>
+    <section>
+    <form>
+    <button type="submit"><a href="Nomereocaik.html">Preencher Formulario</a></a></button>
+    </form>
+    </section>  
+        </div>  
+    </body>
+</html>
